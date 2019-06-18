@@ -17,7 +17,7 @@
    <widget class="QPushButton" name="pb_upload">
     <property name="geometry">
      <rect>
-      <x>110</x>
+      <x>120</x>
       <y>390</y>
       <width>131</width>
       <height>41</height>
@@ -38,7 +38,7 @@
    <widget class="QPushButton" name="pb_convert">
     <property name="geometry">
      <rect>
-      <x>300</x>
+      <x>310</x>
       <y>390</y>
       <width>131</width>
       <height>41</height>
@@ -59,7 +59,7 @@
    <widget class="QPushButton" name="pb_download">
     <property name="geometry">
      <rect>
-      <x>480</x>
+      <x>490</x>
       <y>390</y>
       <width>131</width>
       <height>41</height>
@@ -80,7 +80,7 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>260</x>
+      <x>270</x>
       <y>400</y>
       <width>31</width>
       <height>21</height>
@@ -101,7 +101,7 @@
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>440</x>
+      <x>450</x>
       <y>400</y>
       <width>41</width>
       <height>21</height>
@@ -185,9 +185,9 @@
    <widget class="QLabel" name="label_6">
     <property name="geometry">
      <rect>
-      <x>140</x>
+      <x>130</x>
       <y>140</y>
-      <width>121</width>
+      <width>141</width>
       <height>21</height>
      </rect>
     </property>
@@ -200,13 +200,13 @@
      </font>
     </property>
     <property name="text">
-     <string>4.點選model:</string>
+     <string>請先點選model:</string>
     </property>
    </widget>
    <widget class="QListWidget" name="listWidget">
     <property name="geometry">
      <rect>
-      <x>180</x>
+      <x>190</x>
       <y>190</y>
       <width>351</width>
       <height>181</height>
@@ -223,7 +223,7 @@
    <widget class="QPushButton" name="pb_show_model">
     <property name="geometry">
      <rect>
-      <x>270</x>
+      <x>280</x>
       <y>130</y>
       <width>181</width>
       <height>41</height>
