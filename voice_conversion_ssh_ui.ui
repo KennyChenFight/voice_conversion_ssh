@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>702</width>
-    <height>467</height>
+    <width>736</width>
+    <height>474</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,8 +17,8 @@
    <widget class="QPushButton" name="pb_upload">
     <property name="geometry">
      <rect>
-      <x>270</x>
-      <y>150</y>
+      <x>110</x>
+      <y>390</y>
       <width>131</width>
       <height>41</height>
      </rect>
@@ -38,8 +38,8 @@
    <widget class="QPushButton" name="pb_convert">
     <property name="geometry">
      <rect>
-      <x>270</x>
-      <y>240</y>
+      <x>300</x>
+      <y>390</y>
       <width>131</width>
       <height>41</height>
      </rect>
@@ -59,8 +59,8 @@
    <widget class="QPushButton" name="pb_download">
     <property name="geometry">
      <rect>
-      <x>270</x>
-      <y>330</y>
+      <x>480</x>
+      <y>390</y>
       <width>131</width>
       <height>41</height>
      </rect>
@@ -80,10 +80,10 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>320</x>
-      <y>200</y>
-      <width>21</width>
-      <height>31</height>
+      <x>260</x>
+      <y>400</y>
+      <width>31</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="font">
@@ -95,16 +95,16 @@
      </font>
     </property>
     <property name="text">
-     <string>↓</string>
+     <string>→</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>320</x>
-      <y>290</y>
-      <width>21</width>
-      <height>31</height>
+      <x>440</x>
+      <y>400</y>
+      <width>41</width>
+      <height>21</height>
      </rect>
     </property>
     <property name="font">
@@ -116,7 +116,7 @@
      </font>
     </property>
     <property name="text">
-     <string>↓</string>
+     <string>→</string>
     </property>
    </widget>
    <widget class="QLabel" name="label_3">
@@ -180,6 +180,65 @@
     </property>
     <property name="text">
      <string>3.按下下載音檔後，音檔位置在target_wav/</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>140</y>
+      <width>121</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微軟正黑體</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>4.點選model:</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>190</y>
+      <width>351</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pb_show_model">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>130</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微軟正黑體</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>秀出model列表</string>
     </property>
    </widget>
   </widget>
